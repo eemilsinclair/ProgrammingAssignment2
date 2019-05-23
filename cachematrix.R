@@ -6,7 +6,6 @@
 ## Caching the Inverse of a Matrix
 ##########################################################################
 
-
 ## This function caches the inverse matrix and 
 ## defines accessors for internal variables.
 makeCacheMatrix <- function(x = matrix()) {
@@ -33,7 +32,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set=set, get=get, setinv=setinv, getinv = getinv)
   
 }
-
 
 ## This functions returns the matrix from cache.
 ## If not cached, calculate the inverse.
